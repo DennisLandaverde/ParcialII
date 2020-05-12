@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="COVID19Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Administrador">
+    <Key>
+      <PropertyRef Name="IdAdmin" />
+    </Key>
+    <Property Name="IdAdmin" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreAdmin" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Contraseña" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Beneficiados">
+    <Key>
+      <PropertyRef Name="IdPer" />
+    </Key>
+    <Property Name="IdPer" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombrePers" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DUI" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="COVID19Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Administrador" EntityType="Self.Administrador" />
+    <EntitySet Name="Beneficiados" EntityType="Self.Beneficiados" />
+  </EntityContainer>
+</Schema>

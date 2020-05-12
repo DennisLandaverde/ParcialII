@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="COVID19ModelStoreContainer" CdmEntityContainer="COVID19Entities">
+    <EntitySetMapping Name="Administrador">
+      <EntityTypeMapping TypeName="COVID19Model.Administrador">
+        <MappingFragment StoreEntitySet="Administrador">
+          <ScalarProperty Name="IdAdmin" ColumnName="IdAdmin" />
+          <ScalarProperty Name="NombreAdmin" ColumnName="NombreAdmin" />
+          <ScalarProperty Name="Contraseña" ColumnName="Contraseña" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Beneficiados">
+      <EntityTypeMapping TypeName="COVID19Model.Beneficiados">
+        <MappingFragment StoreEntitySet="Beneficiados">
+          <ScalarProperty Name="IdPer" ColumnName="IdPer" />
+          <ScalarProperty Name="NombrePers" ColumnName="NombrePers" />
+          <ScalarProperty Name="DUI" ColumnName="DUI" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

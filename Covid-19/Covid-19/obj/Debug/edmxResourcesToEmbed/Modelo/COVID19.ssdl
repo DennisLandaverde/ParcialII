@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="COVID19Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Administrador">
+    <Key>
+      <PropertyRef Name="IdAdmin" />
+    </Key>
+    <Property Name="IdAdmin" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreAdmin" Type="varchar" MaxLength="50" />
+    <Property Name="Contraseña" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Beneficiados">
+    <Key>
+      <PropertyRef Name="IdPer" />
+    </Key>
+    <Property Name="IdPer" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombrePers" Type="varchar" MaxLength="50" />
+    <Property Name="DUI" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="COVID19ModelStoreContainer">
+    <EntitySet Name="Administrador" EntityType="Self.Administrador" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Beneficiados" EntityType="Self.Beneficiados" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

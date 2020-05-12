@@ -1,0 +1,16 @@
+E:\Covid-19\Covid-19\bin\Debug\Covid-19.exe.config
+E:\Covid-19\Covid-19\bin\Debug\Covid-19.exe
+E:\Covid-19\Covid-19\bin\Debug\Covid-19.pdb
+E:\Covid-19\Covid-19\bin\Debug\EntityFramework.dll
+E:\Covid-19\Covid-19\bin\Debug\EntityFramework.SqlServer.dll
+E:\Covid-19\Covid-19\bin\Debug\EntityFramework.xml
+E:\Covid-19\Covid-19\bin\Debug\EntityFramework.SqlServer.xml
+E:\Covid-19\Covid-19\obj\Debug\Covid-19.csprojAssemblyReference.cache
+E:\Covid-19\Covid-19\obj\Debug\Covid_19.Form1.resources
+E:\Covid-19\Covid-19\obj\Debug\Covid_19.Properties.Resources.resources
+E:\Covid-19\Covid-19\obj\Debug\Covid-19.csproj.GenerateResource.cache
+E:\Covid-19\Covid-19\obj\Debug\Covid-19.csproj.CopyComplete
+E:\Covid-19\Covid-19\obj\Debug\Covid-19.exe
+E:\Covid-19\Covid-19\obj\Debug\Covid-19.pdb
+E:\Covid-19\Covid-19\obj\Debug\Covid_19.Administrador.resources
+E:\Covid-19\Covid-19\obj\Debug\Covid_19.InicioSesion.resources
